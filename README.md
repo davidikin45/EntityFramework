@@ -34,6 +34,9 @@ Scaffold-DbContext "Server=.\;Database=AdventureWorksLT2012;Trusted_Connection=T
 * Always Encrypted
 * Dynamic Data Masking
 
+## Performance
+* Intelligent Performance > Automatic Tuning
+
 ## Materialized Views
 * https://docs.microsoft.com/en-gb/azure/architecture/patterns/materialized-view
 * These materialized views, which only contain data required by a query, allow applications to quickly obtain the information they need. In addition to joining tables or combining data entities, materialized views can include the current values of calculated columns or data items, the results of combining values or executing transformations on the data items, and values specified as part of the query. A materialized view can even be optimized for just a single query.
