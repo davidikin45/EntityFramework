@@ -36,6 +36,7 @@ Scaffold-DbContext "Server=.\;Database=AdventureWorksLT2012;Trusted_Connection=T
 
 ## Performance
 * Intelligent Performance > Automatic Tuning
+* Intelligent Performance > Query Performance Insight
 
 ## Materialized Views
 * https://docs.microsoft.com/en-gb/azure/architecture/patterns/materialized-view
