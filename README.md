@@ -49,3 +49,7 @@ Scaffold-DbContext "Server=.\;Database=AdventureWorksLT2012;Trusted_Connection=T
 * When the source data for the view changes, the view must be updated to include the new information. You can schedule this to happen automatically, or when the system detects a change to the original data. In some cases it might be necessary to regenerate the view manually. The figure shows an example of how the Materialized View pattern might be used.
 
 ![alt text](img/materialized-view-pattern-diagram.jpg "Materialized Views")
+
+## Packages
+* Microsoft.EntityFrameworkCore.Tools = Visual Studio + CLI
+* Microsoft.EntityFrameworkCore.Design = CLI Only
